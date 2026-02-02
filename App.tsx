@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { TagConfig, TagShape, TagColor, TagPattern, TagSize, CartItem } from './types';
 import { PRICE_MAP, generateTagImageUrl } from './constants';
-import Preview from './components/Preview';
-import Controls from './components/Controls';
+import Preview from './components/Preview.tsx';
+import Controls from './components/Controls.tsx';
 import { ShoppingCart, X, Trash2, CheckCircle, Dog, Cat, PawPrint, Rabbit } from 'lucide-react';
 
 const App: React.FC = () => {
